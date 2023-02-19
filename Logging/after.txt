@@ -1,0 +1,47 @@
+[2022-10-20 16:07:43.418 INF] 8003395c-0801-f700-b63f-84710c7967bb | Request(POST): [Host: rshydrabonusbe.securetrans88.cannonball.web, Path: /api/BackofficeBonus/NewBonus/InsertBonusRulePredefinedMemberBySF, QueryString: , Body: {
+  "bonusRuleID": 140594,
+  "memberCode": [
+    "a07995593"
+  ]
+}]
+[2022-10-20 16:07:43.423 INF] 8003395c-0801-f700-b63f-84710c7967bb | 10/20/2022 4:07:43 PM | Start InsertBonusRulePredefinedMemberServiceForSF  bonusRuleID : 140594 | IsBatch : False | Predefined Members : ["a07995593"] | UpdatedBy : SFMC
+[2022-10-20 16:07:43.427 INF] 8003395c-0801-f700-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | End IsSFMCBonusCache | GetCacheDataByKey | Total time taken : 00:00:00.0041336
+[2022-10-20 16:07:43.442 INF] 8003395c-0801-f700-b63f-84710c7967bb | IsSFMCBonusCache | Key : NewBonusRuleID_SFMC_140594 | Value : True | Start Insert Is SFMC Bonus Cache.
+[2022-10-20 16:07:43.445 INF] 8003395c-0801-f700-b63f-84710c7967bb | IsSFMCBonusCache | Key : NewBonusRuleID_SFMC_140594 | Value : True | IsSuccess : True | End Insert Is SFMC Bonus Cache.
+[2022-10-20 16:07:43.445 INF] 8003395c-0801-f700-b63f-84710c7967bb | Total time taken : 00:00:00.0218963 | End Function IsSFMCBonusCache
+[2022-10-20 16:07:43.445 INF] 8003395c-0801-f700-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | END IsSFMCBonusCache | Total time taken : 00:00:00.0219176
+[2022-10-20 16:07:43.445 INF] 8003395c-0801-f700-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | Empty Membercode | Total time taken : 00:00:00.0000040
+[2022-10-20 16:07:43.445 INF] 8003395c-0801-f700-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | Check Duplicated Membercode | Total time taken : 00:00:00.0000085
+[2022-10-20 16:07:43.445 INF] 8003395c-0801-f700-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | Convert To Datatable | Total time taken : 00:00:00.0000321
+[2022-10-20 16:07:43.447 INF] 8003395c-0801-f700-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | END IsPredefinedMembersExists | Total time taken : 00:00:00.0013206
+[2022-10-20 16:07:43.448 INF] 8003395c-0801-f700-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | End GetBonusCurrencyCache | GetCacheDataByKey | Total time taken : 00:00:00.0009710
+[2022-10-20 16:07:43.462 INF] 8003395c-0801-f700-b63f-84710c7967bb | GetBonusCurrencyCache | Key : NewBonusRuleID_140594 | Value : CNY | Start Insert Bonus Currency Cache.
+[2022-10-20 16:07:43.469 INF] 8003395c-0801-f700-b63f-84710c7967bb | GetBonusCurrencyCache | Key : NewBonusRuleID_140594 | Value : CNY | IsSuccess : True | End Insert Bonus Currency Cache.
+[2022-10-20 16:07:43.469 INF] 8003395c-0801-f700-b63f-84710c7967bb | Total time taken : 00:00:00.0220214 | End Function IsSFMCBonusCache
+[2022-10-20 16:07:43.469 INF] 8003395c-0801-f700-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | END GetBonusCurrencyCache | Total time taken : 00:00:00.0220472
+[2022-10-20 16:07:43.471 INF] 8003395c-0801-f700-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | END IsMemberCodeExists Total time taken : 00:00:00.0017907
+[2022-10-20 16:07:43.475 INF] 8003395c-0801-f700-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | End InsertBonusRulePredefinedMember | time taken for insert : 00:00:00.0042059
+[2022-10-20 16:07:43.479 INF] 8003395c-0801-f700-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | End SetBonusRuleUpdatedDate | time taken for insert : 00:00:00.0038975
+[2022-10-20 16:07:43.479 INF] 8003395c-0801-f700-b63f-84710c7967bb | Total time taken : 00:00:00.0554917 | End InsertBonusRulePredefinedMemberServiceForSF
+[2022-10-20 16:07:43.479 INF] 8003395c-0801-f700-b63f-84710c7967bb | Response (200): [{"isSuccess":true,"errorCode":null,"message":null,"data":false}] 
+
+[2022-10-20 16:08:43.506 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | Request(POST): [Host: rshydrabonusbe.securetrans88.cannonball.web, Path: /api/BackofficeBonus/NewBonus/InsertBonusRulePredefinedMemberBySF, QueryString: , Body: {
+  "bonusRuleID": 140594,
+  "memberCode": [
+    "a07com"
+  ]
+}]
+[2022-10-20 16:08:43.512 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | 10/20/2022 4:07:43 PM | Start InsertBonusRulePredefinedMemberServiceForSF  bonusRuleID : 140594 | IsBatch : False | Predefined Members : ["a07com"] | UpdatedBy : SFMC
+[2022-10-20 16:08:43.513 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | End IsSFMCBonusCache | GetCacheDataByKey | Total time taken : 00:00:00.0011222
+[2022-10-20 16:08:43.513 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | END IsSFMCBonusCache | Total time taken : 00:00:00.0011498
+[2022-10-20 16:08:43.513 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | Empty Membercode | Total time taken : 00:00:00.0000022
+[2022-10-20 16:08:43.513 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | Check Duplicated Membercode | Total time taken : 00:00:00.0000071
+[2022-10-20 16:08:43.513 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | Convert To Datatable | Total time taken : 00:00:00.0000244
+[2022-10-20 16:08:43.515 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | END IsPredefinedMembersExists | Total time taken : 00:00:00.0016531
+[2022-10-20 16:08:43.516 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | End GetBonusCurrencyCache | GetCacheDataByKey | Total time taken : 00:00:00.0010825
+[2022-10-20 16:08:43.516 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | END GetBonusCurrencyCache | Total time taken : 00:00:00.0011175
+[2022-10-20 16:08:43.517 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | END IsMemberCodeExists Total time taken : 00:00:00.0017759
+[2022-10-20 16:08:43.522 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | End InsertBonusRulePredefinedMember | time taken for insert : 00:00:00.0040260
+[2022-10-20 16:08:43.526 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | Start Time 10/20/2022 4:07:43 PM | End SetBonusRuleUpdatedDate | time taken for insert : 00:00:00.0045925
+[2022-10-20 16:08:43.526 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | Total time taken : 00:00:00.0146566 | End InsertBonusRulePredefinedMemberServiceForSF
+[2022-10-20 16:08:43.526 INF] 8001b9ec-2801-a500-b63f-84710c7967bb | Response (200): [{"isSuccess":true,"errorCode":null,"message":null,"data":false}] 
